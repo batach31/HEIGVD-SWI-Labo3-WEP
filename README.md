@@ -115,12 +115,17 @@ Dans cette partie, vous allez enrichir votre script développé dans la partie p
 
 Un fork du repo original . Puis, un Pull Request contenant :
 
+Tous les fichiers se trouvent dans le dossier ```files```
+
 -	Script de chiffrement WEP **abondamment commenté/documenté**
   - Fichier pcap généré par votre script contenant la trame chiffrée
   - Capture d’écran de votre trame importée et déchiffré par Wireshark
 -	Script de fragmentation **abondamment commenté/documenté**
+Le script se trouve dans le fichier ```manual-encryption-3-fragment.py```
   - Fichier pcap généré par votre script contenant les fragments
+  Il se trouve dans le fichier ```forged_arp_fragments.cap```
   - Capture d’écran de vos trames importées et déchiffrés par Wireshark 
+  Cela se trouve sur l'image ```wireshark_fragments_decryption```
 
 -	Envoyer le hash du commit et votre username GitHub par email au professeur et à l'assistant
 
