@@ -12,7 +12,10 @@ key= b'\xaa\xaa\xaa\xaa\xaa'
 text = "All the world's a stage, and all the men and women merely players they have their exits and their entrances."
 # text = bytes.fromhex((text).encode("utf-8").hex())
 
-fragmentation = wrap(text,36)
+n = 36
+fragmentation = [text[i:i+n] for i in range(0, len(text), n)]
+
+# print(*fragmentation, sep = "## ")
 
 trame_fragments = []
 
