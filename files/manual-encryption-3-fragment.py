@@ -3,7 +3,6 @@
 from scapy.all import *
 import binascii
 from rc4 import RC4
-from textwrap import wrap
 
 #Cle wep AA:AA:AA:AA:AA
 key= b'\xaa\xaa\xaa\xaa\xaa'
@@ -12,10 +11,9 @@ key= b'\xaa\xaa\xaa\xaa\xaa'
 text = "All the world's a stage, and all the men and women merely players they have their exits and their entrances."
 # text = bytes.fromhex((text).encode("utf-8").hex())
 
+# on fragmente le text en 3 parties de 36 characteres
 n = 36
 fragmentation = [text[i:i+n] for i in range(0, len(text), n)]
-
-# print(*fragmentation, sep = "## ")
 
 trame_fragments = []
 
