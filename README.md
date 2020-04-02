@@ -119,13 +119,15 @@ Tous les fichiers se trouvent dans le dossier ```files```<br/>
 
 -	Script de chiffrement WEP **abondamment commenté/documenté**
   - Fichier pcap généré par votre script contenant la trame chiffrée
+  Le script se trouve danns le fichier ```manual-encryption.py```
   - Capture d’écran de votre trame importée et déchiffré par Wireshark
+  La capture se trouve dans l'image ```wireshark_decryption.png```
 -	Script de fragmentation **abondamment commenté/documenté**<br/>
 Le script se trouve dans le fichier ```manual-encryption-3-fragment.py```<br/>
   - Fichier pcap généré par votre script contenant les fragments<br/>
   Il se trouve dans le fichier ```forged_arp_fragments.cap```<br/>
   - Capture d’écran de vos trames importées et déchiffrés par Wireshark<br/>
-  Cela se trouve sur l'image ```wireshark_fragments_decryption```<br/>
+  Cela se trouve sur l'image ```wireshark_fragments_decryption.JPG```<br/>
 
 -	Envoyer le hash du commit et votre username GitHub par email au professeur et à l'assistant
 
