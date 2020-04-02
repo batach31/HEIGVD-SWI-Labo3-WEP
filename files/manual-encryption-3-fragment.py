@@ -45,7 +45,7 @@ for i in range(0, len(fragmentation)):
 
 	# encryption du message
 	message_encripted = cipher.crypt(message)
-	print(message_encripted.hex())
+	# print(message_encripted.hex())
 
 	# préparation de la nouvelle trame
 	trame = arp
